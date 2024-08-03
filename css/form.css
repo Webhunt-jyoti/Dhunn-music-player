@@ -1,0 +1,103 @@
+.containerr {
+    
+   display: flex;
+   flex-direction: column;
+    /* border: 2px solid red; */
+    position: relative;
+    padding: 0;
+}
+.containerr form {
+    display: flex;
+    /* justify-content: space-between; */
+ 
+    
+}
+.box{
+    display: flex;
+    margin: 10px;
+}
+
+.box label{
+    margin: 0 0px;
+    padding: 5px;
+    /* border: 2px solid green; */
+    width: 50%;
+    height: 50%;
+
+}
+.box select{
+    
+    padding: 5px;
+    /* border: 2px solid green; */
+    width: 80%;
+    height: 90%;
+
+}
+.list-group{
+    padding: 5px;
+    text-indent: 5px;
+    margin: 5px 0;
+    text-align: center;
+    
+}
+.btn-success {
+    background-color: #0771b3 !important;
+    border-radius: 100px;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  .box-list{
+    /* border: 2px solid red; */
+    background-color: rgb(243, 243, 243);
+    position: absolute;
+    color: black;
+    top: 90%;
+    z-index: 1;
+    height: auto;
+    width: 100%;
+  }
+  .box-list .song-listt{
+    
+    color: black;
+   
+  }
+  .list-group-item{
+    padding: 10px;
+   
+  
+    
+    /* border: 2px solid rgb(244, 15, 11); */
+  }
+  img.track {
+    border: 3px solid #8a8a8a;
+  }
+  /* span.caret {
+    position: absolute;
+    left: 90%;
+    top: 45%;
+  } */
+
+  #panel,#flip	{
+    padding: 5px;
+    text-align: center;
+    /* border: 2px solid red; */
+    margin: 5px;
+    /* background-color: dodgerblue;
+    border: solid 5px purple; */
+    }
+    #panel {
+    padding: 60px;
+    display: none;
+    margin-top: 10px;
+    }
+    #flip{
+        width: 100%;
+        border: 2px solid rgb(74, 71, 71);
+        position: relative;
+        border-radius: 10px;
+
+
+    }
+   
